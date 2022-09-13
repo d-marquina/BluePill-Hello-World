@@ -25,7 +25,7 @@ void loop()
   // print to serial monitor
   SerialUSB.println("Hello World");
   // wait for a second
-  delay(1000);
+  delay(5000);
   // turn the LED off by making the voltage LOW
   digitalWrite(LED_BUILTIN, LOW);
    // wait for a second
