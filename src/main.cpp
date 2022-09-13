@@ -20,14 +20,14 @@ void setup()
 
 void loop()
 {
-  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(LED_BUILTIN, HIGH);
+  // turn the LED on (LOW is the inverted voltage level)
+  digitalWrite(LED_BUILTIN, LOW);
   // print to serial monitor
   SerialUSB.println("Hello World");
   // wait for a second
   delay(5000);
-  // turn the LED off by making the voltage LOW
-  digitalWrite(LED_BUILTIN, LOW);
+  // turn the LED off by making the voltage HIGH
+  digitalWrite(LED_BUILTIN, HIGH);
    // wait for a second
   delay(1000);
 }
